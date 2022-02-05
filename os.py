@@ -152,16 +152,6 @@ def turtle_drawer():
         if inp == "Q":
             running = False
 
-# NEW APP
-
-def clicker():
-    win = tk.Tk()
-    win.title("Trial")
-    win.geometry(520, 850)
-    win.minisize(520, 850)
-    running = True
-    while running:
-        win.mainloop()
 
 # NEW APP
 
@@ -185,7 +175,6 @@ if input("press enter: ") == str(salasana):
         print("2 = timer")
         print("3 = file editor")
         print("4 = turtle drawing")
-        print("5 = clicker")
 
         select = input()
 
@@ -198,5 +187,3 @@ if input("press enter: ") == str(salasana):
             file_editor()
         elif select == "4":
             turtle_drawer()
-        elif select == "5":
-            clicker()
