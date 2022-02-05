@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 
 print("ajattele lukua 1-100")
