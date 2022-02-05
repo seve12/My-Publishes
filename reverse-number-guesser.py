@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 
 print("think of a number between 1-100")
